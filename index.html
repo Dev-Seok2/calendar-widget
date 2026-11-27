@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>캘린더 위젯 (Calendar Widget)</title>
+<style>
+  body { font-family: "Malgun Gothic", system-ui, sans-serif; max-width: 760px; margin: 40px auto; padding: 0 16px;
+         line-height: 1.7; color: #1f2329; background: #f4f5f8; }
+  .card { background: #fff; border-radius: 18px; padding: 28px 32px; box-shadow: 0 6px 24px rgba(0,0,0,.06); margin-bottom: 18px; }
+  h1 { margin: 0 0 6px; color: #3b6fe0; font-size: 28px; }
+  h2 { font-size: 18px; margin: 0 0 10px; }
+  a { color: #3b6fe0; }
+  .sub { color: #6b7280; font-size: 14px; }
+  .shot { width: 100%; border-radius: 12px; border: 1px solid #e3e7ef; margin: 14px 0 4px; }
+  .download { display: inline-block; background: #3b6fe0; color: #fff; text-decoration: none; font-weight: 700;
+              font-size: 18px; padding: 14px 28px; border-radius: 14px; margin: 8px 10px 8px 0; }
+  .download:hover { background: #2f5cc4; }
+  .ghost { display: inline-block; border: 1px solid #c9d3ea; color: #3b6fe0; text-decoration: none; font-weight: 700;
+           padding: 12px 20px; border-radius: 14px; }
+  ol { padding-left: 22px; margin: 0; }
+  ol li { margin: 6px 0; }
+  .note { background: #eef3fd; border-radius: 12px; padding: 12px 16px; font-size: 14px; }
+</style>
+</head>
+<body>
+<div class="card">
+  <h1>캘린더 위젯</h1>
+  <p class="sub">Windows 바탕화면에서 보는 내 구글 캘린더 · Google Tasks</p>
+  <img class="shot" src="main.png" alt="캘린더 위젯 화면">
+  <p>
+    <a class="download" href="https://github.com/Dev-Seok2/calendar-widget/releases/latest/download/CalendarWidget.zip">⬇ 다운로드 (Windows)</a>
+    <a class="ghost" href="guide.pdf">📄 사용 안내 PDF</a>
+  </p>
+  <p class="sub">Windows 10 / 11 · 설치 프로그램 없이 압축만 풀면 됩니다 · 약 100 MB</p>
+</div>
+
+<div class="card">
+  <h2>설치 (처음 한 번, 3분)</h2>
+  <ol>
+    <li>위 <b>다운로드</b>를 눌러 받은 <b>CalendarWidget.zip</b>을 마우스 오른쪽 → <b>압축 풀기</b> (문서 폴더 등)</li>
+    <li>풀린 폴더의 <b>CalendarWidget</b> 폴더 안 <b>CalendarWidget.exe</b> 더블클릭<br>
+        <span class="sub">파란 "Windows의 PC 보호" 창이 뜨면 <b>추가 정보 → 실행</b> (개인이 만든 프로그램이라 뜨는 안내예요)</span></li>
+    <li><b>[구글로 연결]</b> → 내 구글 계정 선택 → "확인하지 않은 앱"이 나오면 <b>고급 → 이동</b> → 체크박스 <b>모두</b> 체크 → 계속</li>
+  </ol>
+  <p class="note">업데이트는 다시 받을 필요 없어요. 새 버전이 나오면 위젯에 알림이 뜨고 <b>[업데이트]</b> 버튼 한 번이면 됩니다.</p>
+</div>
+
+<div class="card">
+  <h2>개인정보</h2>
+  <ul>
+    <li>로그인한 본인의 데이터만, 본인 PC에서만 처리합니다. / Your data is processed only on your own PC.</li>
+    <li>개발자 서버가 없으며 어떤 데이터도 개발자에게 전송되지 않습니다. / Nothing is sent to the developer.</li>
+  </ul>
+  <p><a href="privacy.html">개인정보처리방침 (Privacy Policy)</a></p>
+</div>
+</body>
+</html>
