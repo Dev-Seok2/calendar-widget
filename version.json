@@ -1,7 +1,7 @@
 {
-  "version": "2026.11.27.2",
-  "notes": "Fixed login key issues",
-  "url": "https://github.com/Dev-Seok2/calendar-widget/releases/download/v2026.11.27.2/CalendarWidget.zip",
-  "sha256": "fb67405fd8ece4588d260d5a37cd880093e917ee79dc3893139a45c2450f7c7f",
-  "size": 43460847
+  "version": "2026.11.27.3",
+  "notes": "Added quick icon",
+  "url": "https://github.com/Dev-Seok2/calendar-widget/releases/download/v2026.11.27.3/CalendarWidget.zip",
+  "sha256": "af8b95f3a4d178a551e6558be2ddd0d10993921c200b93e757025e32101c330f",
+  "size": 43462547
 }
