@@ -1,7 +1,9 @@
 {
-  "version": "2026.11.27.3",
-  "notes": "Added quick icon",
-  "url": "https://github.com/Dev-Seok2/calendar-widget/releases/download/v2026.11.27.3/CalendarWidget.zip",
-  "sha256": "af8b95f3a4d178a551e6558be2ddd0d10993921c200b93e757025e32101c330f",
-  "size": 43462547
+  "version": "2026.11.28",
+  "label": "0.2.0",
+  "tag": "v0.2.0",
+  "notes": "-",
+  "url": "https://github.com/Dev-Seok2/calendar-widget/releases/download/v0.2.0/CalendarWidget.zip",
+  "sha256": "ddb7619f227e99691d12820695a87de63fc4ad4190de8d709c76eca57a653f2d",
+  "size": 34338584
 }
