@@ -1,0 +1,6 @@
+{
+  "announcement": null,
+  "promo": {"enabled": false, "id": "none", "title": "", "text": "", "url": "", "label": "광고"},
+  "features": {},
+  "min_version": ""
+}
